@@ -1,2 +1,5 @@
 # ignore fl studio import dir
 /fl\ studio\ import/
+
+# ignore renoise project wav exports
+/Renoise\ projects/*.wav

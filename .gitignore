@@ -2,4 +2,4 @@
 /fl\ studio\ import/
 
 # ignore renoise project wav exports
-/Renoise\ projects/*.wav
+"Renoise projects/"*.wav

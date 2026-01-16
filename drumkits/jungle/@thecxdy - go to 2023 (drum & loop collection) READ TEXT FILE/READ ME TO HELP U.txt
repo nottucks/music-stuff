@@ -1,0 +1,1 @@
+Drag both the folder and the .nfo file to the same place you put your kits. Don't just drag the folder that contains both. You need to drag these 2 in seperately.

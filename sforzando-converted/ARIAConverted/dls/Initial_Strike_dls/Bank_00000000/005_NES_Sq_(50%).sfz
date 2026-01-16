@@ -1,0 +1,35 @@
+// **********************************************************************
+// RIFF2SFZ (DLS) Converter v0002
+// Copyright Jan  7 2026, Plogue Art et Technologie, Inc
+// **********************************************************************
+// Container info  
+// Name             :Instrument Set
+
+// Instrument info 
+// Name             :NES Sq (50%)
+// 
+// MIDI Bank        : 0
+// MIDI Instrument  : 5
+// 
+// Number of Regions: 0
+// 
+// Conversion Date  : Fri Jan 16 12:51:31 2026
+// **********************************************************************
+
+<control>
+default_path=../samples/
+hint_load_method=1
+set_cc1=0     //Power-on Default Values: Modulation
+set_cc11=127  //Power-on Default Values: Expression
+set_cc64=0    //Power-on Default Values: Sustain Pedal
+set_cc91=40   //Power-on Default Values: Reverb Send
+set_cc93=0    //Power-on Default Values: Chorus Send
+set_cc100=127 //Power-on Default Values: RPN LSB
+set_cc101=127 //Power-on Default Values: RPN MSB
+
+<global>
+//DLS Level 1/2 Inferred Connections
+ lfo01_freq=5.0  lfo01_delay=0.01
+ lfo02_freq=5.0  lfo02_delay=0.01
+
+

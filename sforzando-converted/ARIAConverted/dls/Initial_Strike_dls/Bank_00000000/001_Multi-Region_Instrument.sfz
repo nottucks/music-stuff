@@ -1,0 +1,80 @@
+// **********************************************************************
+// RIFF2SFZ (DLS) Converter v0002
+// Copyright Jan  7 2026, Plogue Art et Technologie, Inc
+// **********************************************************************
+// Container info  
+// Name             :Instrument Set
+
+// Instrument info 
+// Name             :Multi-Region Instrument
+// 
+// MIDI Bank        : 0
+// MIDI Instrument  : 1
+// 
+// Number of Regions: 3
+// 
+// Conversion Date  : Fri Jan 16 12:51:31 2026
+// **********************************************************************
+
+<control>
+default_path=../samples/
+hint_load_method=1
+set_cc1=0     //Power-on Default Values: Modulation
+set_cc11=127  //Power-on Default Values: Expression
+set_cc64=0    //Power-on Default Values: Sustain Pedal
+set_cc91=40   //Power-on Default Values: Reverb Send
+set_cc93=0    //Power-on Default Values: Chorus Send
+set_cc100=127 //Power-on Default Values: RPN LSB
+set_cc101=127 //Power-on Default Values: RPN MSB
+
+<global>
+//DLS Level 1/2 Inferred Connections
+ lfo01_freq=5.0  lfo01_delay=0.01
+ lfo02_freq=5.0  lfo02_delay=0.01
+
+<region>
+ sample=Sample_12.wav
+//Local Connections (art2) size:5
+ pan=0
+ ampeg_attack=0.00520833
+ ampeg_decay=0.001
+ ampeg_sustain=100
+ ampeg_release=0.5
+ lokey=0 hikey=59 lovel=0 hivel=127
+ pitch_keycenter=48
+ tune=0
+ volume=0
+ loop_start=10409 loop_end=28800
+ loop_mode=loop_continuous
+
+<region>
+ sample=Sample_13.wav
+//Local Connections (art2) size:5
+ pan=0
+ ampeg_attack=0.00520833
+ ampeg_decay=0.001
+ ampeg_sustain=100
+ ampeg_release=0.5
+ lokey=60 hikey=71 lovel=0 hivel=127
+ pitch_keycenter=60
+ tune=0
+ volume=0
+ loop_start=17281 loop_end=32608
+ loop_mode=loop_continuous
+
+<region>
+ sample=Sample_14.wav
+//Local Connections (art2) size:5
+ pan=0
+ ampeg_attack=0.00520833
+ ampeg_decay=0.001
+ ampeg_sustain=100
+ ampeg_release=0.5
+ lokey=72 hikey=127 lovel=0 hivel=127
+ pitch_keycenter=72
+ tune=0
+ volume=0
+ loop_start=10761 loop_end=21168
+ loop_mode=loop_continuous
+
+
